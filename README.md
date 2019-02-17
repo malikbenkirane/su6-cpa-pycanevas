@@ -1,5 +1,7 @@
-copy or link `sol.txt` in this location.
+**1** copy or link `sol.txt` in this location.
+
 It's the *list of successors* (one list per line)
+
 to describe the solution tree. The format for each line is
 ```
 xp,yp:xp1,yp1[;...]
@@ -7,7 +9,7 @@ or
 xp,yp:
 ```
 
-install requirements,
+**2** install requirements,
 my choice is to use venv module
 for separation with python's system installation
 ```
@@ -16,7 +18,7 @@ python3 -venv env
 ./env/bin/pip install -r requirements.txt
 ```
 
-run
+**3** run
 ```
 ./env/bin/python
 ```
