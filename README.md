@@ -1,7 +1,10 @@
-copy or link `sol.txt` in this location :
-*successors lists* describing the solution tree with the following format
+copy or link `sol.txt` in this location.
+It's the *list of successors* (one list per line)
+to describe the solution tree. The format for each line is
 ```
-xp,yp:xp1,yp1;...
+xp,yp:xp1,yp1[;...]
+or
+xp,yp:
 ```
 
 install requirements,
